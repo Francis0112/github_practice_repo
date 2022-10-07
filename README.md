@@ -1,10 +1,10 @@
-# Demonstration of power!
-practice github.
-lets get in on.
-time to be the best programmer in the universe! 
-and the multiverse! spiderman .\..\-
+# header
+some text
+* git clone
+* git status
+* git add
+* git commit -m "message"
+* git push origin master
 
 ## sub header
-
 hello world 
-how are you
