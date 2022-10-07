@@ -14,5 +14,3 @@ def bork(a, b, operator):
 
 
 bork(12,12,"+")
-
- 
