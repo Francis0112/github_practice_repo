@@ -1,40 +1,32 @@
 
 
-
-from ctypes.wintypes import CHAR
-from curses.ascii import isalnum, isalpha
-
-from numpy import character, number
+import math
 
 
-char_list = ["a","B","C"]
-num_list = [1,2,3]
-other_list = []
+class exam:
 
-def palindrome(arlist):
-    for i in arlist:
-        if i ==isalpha:
-            print("char")
-        elif i == isalnum:
-            print("num")
+    def prime_factors():
+        num = int(input("enter a number:"))
+        while(num%2==0):
+            print(2)
+            num = num/2
+
+        for i in range(3,int(math.sqrt(num))+1,2):
+            while(num%i==0):
+                print(i)
+                num = num/i
+        if num > 2:
+            print(num)
+
+    def palidrome(array):
+        iset = set(array)
+        if len(array) != len(iset):
+            print("it is palindrome")
         else:
-            print("false")
+            print("not palindrome")
+        
 
-
-print(palindrome(char_list))
-
-def get_factors(num):
-    factors = 0
-    for i in range(1,num):
-        if i%2==0:
-            pass
-        else:
-            factors = i
-            print(factors)
-
-#get_factors(9)
-
-
-
-
+exam1 = exam
+exam1.prime_factors()
+exam1.palidrome([1,2,3,4,1])
 
