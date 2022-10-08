@@ -1,5 +1,10 @@
 # header
-some text
+for existing repo
+* git init
+* git pull
+* git commit -a -m "message"
+* git push
+for new repo
 * git clone
 * git status
 * git add
