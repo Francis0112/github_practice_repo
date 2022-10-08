@@ -4,6 +4,7 @@ for existing repo
 * git pull
 * git commit -a -m "message"
 * git push
+__________________
 for new repo
 * git clone
 * git status
